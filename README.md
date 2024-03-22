@@ -36,7 +36,7 @@ python make_wikipedia.py \
 Then, use the Dolma script to mix the Wikipedia data:
 
 ```bash
-dolma -c wikipeida-mix.yaml mix --processes 16
+dolma -c config/wikipeida-mix.yaml mix --processes 16
 ```
 
 ## Notes
