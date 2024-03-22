@@ -16,7 +16,6 @@ for split, split_dataset in dataset.items():
     with tqdm(total=len(split_dataset), desc=f'Downloading {split}') as pbar:
         for data in split_dataset:
             # Process each data point
-            # Here you can perform your desired operations
             split_dataset.to_json(f"culturX-{split}.jsonl")
             # Update progress bar
             pbar.update(1)
@@ -34,7 +33,6 @@ for split, split_dataset in dataset.items():
     with tqdm(total=len(split_dataset), desc=f'Downloading {split}') as pbar:
         for data in split_dataset:
             # Process each data point
-            # Here you can perform your desired operations
             split_dataset.to_json(f"madlad-{split}.jsonl")
             # Update progress bar
             pbar.update(1)
