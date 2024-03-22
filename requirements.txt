@@ -1,0 +1,6 @@
+wikiextractor @ git+https://github.com/santhoshtr/wikiextractor.git
+requests
+smart_open
+tqdm
+dolma  
+datasets
