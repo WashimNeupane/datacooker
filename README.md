@@ -39,7 +39,8 @@ dolma -c wikipeida-mix.yaml mix --processes 16
 ```
 
 Datasets
-For certain private datasets, you may need to log in via the Hugging Face CLI before downloading.
+
+For private datasets, you may need to log in via the Hugging Face CLI before downloading.
 
 
 
