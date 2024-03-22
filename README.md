@@ -27,8 +27,8 @@ First, you need to extract Wikipedia data and create a Wikipedia mix using Dolma
 ```bash
 python make_wikipedia.py \
   --output data/wikipedia \
-  --date 20240320 \
-  --lang simple \
+  --date {latestDate in YYYYMMDD format}  \
+  --lang simple \     
   --processes 16 \
   --overwrite
 ````
