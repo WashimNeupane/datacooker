@@ -12,6 +12,7 @@ This script allows you to download a subset of a Hugging Face dataset based on a
 - smart_open
 - tqdm
 - dolma
+- datasets
 
 You can install these dependencies using pip:
 
