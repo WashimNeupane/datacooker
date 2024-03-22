@@ -1,5 +1,5 @@
 # datacooker
-Curates a mix of datasets for llm training. 
+Curates a mix of datasets for llm training. Based on dolma library (See https://arxiv.org/abs/2402.00159)
 
 # Dataset Subset Downloader
 
