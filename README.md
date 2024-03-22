@@ -21,6 +21,7 @@ pip install -r requirements.txt
 ```
 
 ##Dolma Scripts to Run
+
 First, you need to extract Wikipedia data and create a Wikipedia mix using Dolma:
 
 ```bash
@@ -38,7 +39,7 @@ Then, use the Dolma script to mix the Wikipedia data:
 dolma -c wikipeida-mix.yaml mix --processes 16
 ```
 
-Datasets
+##Notes
 
 For private datasets, you may need to log in via the Hugging Face CLI before downloading.
 
