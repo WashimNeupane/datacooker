@@ -39,9 +39,16 @@ Then, use the Dolma script to mix the Wikipedia data:
 dolma -c config/wikipeida-mix.yaml mix --processes 16
 ```
 
+You can subsample or oversample with the probability 0-1 and >1 respectively. For oversample, the oversampled_p= 1/p. Run the code as follows
+
+```bash
+python sampling.py  -s 'data/dir/location1/*.gz' 'data/dir/location2/*.gz'   -p 1.65   -d data/mixed   -n 16
+```
+
 ## Notes
 
 For private datasets, you may need to log in via the Hugging Face CLI before downloading.
+
 
 
 
